@@ -7,6 +7,18 @@
       <ul>
         <li>Fullstack developer</li>
       </ul>
+      <ul>
+        <li>
+          <a href="https://github.com/VictorManduca/">
+            <img src="../assets/github.png" alt="Github" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/victormanduca/">
+            <img src="../assets/linkedin.png" alt="Linkedin" />
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="skills">
       <h2>Skills</h2>
@@ -53,7 +65,7 @@
       <p>Studying System Analysis and Development at Fatec.</p>
     </div>
     <div class="footer">
-
+      <p>Victor Hugo Manduca Rizo - victor.manduca@hotmail.com</p>
     </div>
   </div>
 </template>
@@ -93,6 +105,9 @@ img {
   font-weight: bold;
   font-size: 20px;
 }
+.header ul li img {
+  width: 3rem;
+}
 
 /* Class of skills */
 .skills {
@@ -118,13 +133,13 @@ img {
 .daksa {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5px 20rem;
+  padding: 0px 20rem;
   grid-column-gap: 0rem;
 }
 .accesys {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5px 20rem;
+  padding: 0px 20rem;
 }
 @media screen and (max-width: 720px) {
   .daksa {
@@ -143,5 +158,15 @@ img {
   .accesys {
     padding: 5px 5rem;
   }
+}
+
+/* Class of contactme */
+.contactme {
+  padding: 1rem;
+}
+
+/* Class of footer */
+.footer {
+  padding-top: 30px;
 }
 </style>
