@@ -1,0 +1,102 @@
+h3 {
+  margin: 40px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+
+img {
+  border-radius: 50rem;
+  width: 10rem;
+}
+
+#daksa {
+  grid-column-gap: 0rem;
+}
+
+.header ul li {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header ul li img {
+  width: 3rem;
+}
+
+.skills {
+  padding: 1rem 15rem;
+}
+
+.skills ul li {
+  font-weight: bold;
+  margin: 7px;
+  padding: 5px 10px;
+  background-color: #e4e4ea;
+  background-size: 30rem, auto, contain;
+}
+
+.expirence {
+  padding: 1rem 15rem;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 20rem;
+  
+}
+
+.contactme {
+  padding: 1rem;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+.align-companies-text {
+  text-align: start;
+}
+
+.align-companies-title {
+  text-align: end;
+  padding-right: 5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .skills {
+    padding: 0rem;
+  }
+
+  .companies {
+    display: inline;
+    padding: 0;
+  }
+
+  .align-companies-text {
+    text-align: center;
+  }
+
+  .align-companies-title {
+    text-align: center;
+    padding-left: 5rem;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .companies {
+    padding: 5px 5rem;
+  }
+}
