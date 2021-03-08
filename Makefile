@@ -12,5 +12,5 @@ deploy: update_dependencies
 	git push -f https://github.com/VictorManduca/resume.git master:gh-pages
 
 update_dependencies:
-	rm -rf node_modules/ package-lock.json
-	npm install --only=prod
+	rm -rf dist/ node_modules/ package-lock.json
+	npm install
