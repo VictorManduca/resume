@@ -1,5 +1,3 @@
-# resume
-
 ## Welcome to my land
 
 ### To run the project, first install all the dependencies
