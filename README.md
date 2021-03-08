@@ -1,25 +1,18 @@
 # resume
 
-## Project setup
+## Welcome to my land
+
+### To run the project, first install all the dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### After that you can already run the project locally on port 8080 in your browser
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### To deploy on github pages
 ```
-npm run build
+./deploy.sh
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# resume
