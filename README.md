@@ -15,4 +15,4 @@ npm run serve
 make deploy
 ```
 
-### To access the page on github pages access the [link](victormanduca.github.io/resume)
+### To access the page on github pages access the [link](https://victormanduca.github.io/resume/)
