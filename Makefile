@@ -1,6 +1,7 @@
 .PHONY: deploy
 
 deploy:
+	git checkout HEAD src/
 	cd src/
 
 	git init
