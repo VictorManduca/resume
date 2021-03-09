@@ -7,7 +7,7 @@ deploy: update_dependencies
 
 	git init
 	git add -A
-	git commit -m 'deploy'
+	git commit --allow-empty -m 'deploy'
 
 	git push -f https://github.com/VictorManduca/resume.git master:gh-pages
 
