@@ -12,5 +12,5 @@ npm run serve
 
 ### To deploy on github pages
 ```
-sh deploy.sh
+make deploy
 ```
