@@ -1,10 +1,5 @@
-## Welcome to my land!
+## Welcome to my resume!
 
-To run the project just open the `index.html` file in `src` folder in your prefered browser
+To run the project just open the `index.html` file in `src` folder in your preferred browser
 
-### To deploy on github pages
-```
-make deploy
-```
-
-### To access the page on github pages access the [link](https://victormanduca.github.io/resume/)
+### To access the page on GitHub pages access the [link](https://victormanduca.github.io/resume/)
