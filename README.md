@@ -1,5 +1,3 @@
-## Welcome to my resume!
+<h1 align="center">Welcome to my resume!</h1>
 
-To run the project just open the `index.html` file in `src` folder in your preferred browser
-
-### To access the page on GitHub pages access the [link](https://victormanduca.github.io/resume/)
+To access my online resume just click [here](https://victormanduca.github.io/resume/)
