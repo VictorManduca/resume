@@ -1,0 +1,121 @@
+body {
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #000000;
+	margin: 60px 0 60px 0;
+}
+
+h3 {
+	margin: 40px 0 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #42b983;
+}
+
+img {
+	border-radius: 50rem;
+	width: 10rem;
+}
+
+#daksa {
+	grid-column-gap: 0rem;
+}
+
+.header ul li {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.header ul li img {
+	width: 3rem;
+}
+
+.skills {
+	padding: 1rem 15rem;
+}
+
+.skills ul li {
+	font-weight: bold;
+	margin: 7px;
+	padding: 5px 10px;
+	background-color: #e4e4ea;
+	background-size: 30rem, auto, contain;
+	font-size: 16px;
+}
+
+.expirence {
+	padding: 1rem 15rem;
+}
+
+.companies {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0px 20rem;
+}
+
+.contactme {
+	padding: 1rem;
+}
+
+.footer {
+	padding-top: 30px;
+}
+
+.align-companies-text {
+	text-align: start;
+}
+
+.align-companies-title {
+	text-align: end;
+	padding-right: 5rem;
+}
+
+.card {
+	margin: 7px 0 7px 0;
+	width: 25%;
+	background-color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+	.companies {
+		padding: 5px 5rem;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.skills {
+		padding: 0rem;
+	}
+
+	.skills ul li {
+		font-size: 16px !important;
+	}
+
+	.companies {
+		display: inline;
+		padding: 0;
+	}
+
+	.align-companies-text {
+		text-align: center;
+		padding: 0 10%;
+	}
+
+	.align-companies-title {
+		text-align: center;
+		padding-left: 5rem;
+	}
+}
