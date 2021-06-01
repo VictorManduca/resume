@@ -1,0 +1,56 @@
+img {
+	border-radius: 50%;
+}
+
+.App {
+	text-align: center;
+}
+
+.Component-Container {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.Component-Container ul {
+	padding: 15rem;
+}
+
+.Component-Container ul li {
+	display: inline-block;
+	white-space: nowrap;
+
+	list-style-type: none;
+	font-weight: bold;
+	margin: 10px;
+	padding: 5px 10px;
+	background-color: #1a1625;
+	font-size: 16px;
+}
+
+.Company {
+	display: inline-block;
+}
+
+.Company-Name {
+}
+
+.Company-Position {
+	font-size: 18px;
+}
+
+.Company-Text {
+	display: inline-block;
+}
+
+.Responsabilities {
+	text-align: start;
+	font-size: 16px;
+
+	padding: 0 30% 0 30%;
+}
